@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: podinfo
-    labels:
+  labels:
     app: podinfo
   annotations:
     fluxcd.io/automated: "true"
