@@ -17,7 +17,7 @@ spec:
   selector:
     matchLabels:
       app: podinfo
-  replicas: 2
+  replicas: 4
   template:
     metadata:
       annotations:
